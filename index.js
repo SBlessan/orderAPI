@@ -5,7 +5,7 @@ const Shopify = require('shopify-api-node');
 const PORT = 5000
 
 
-app.get('/orders',async(req,res)=> {
+index.get('/',async(req,res)=> {
 
   const headers = req.headers;
       const shopName = headers['shopname'];
